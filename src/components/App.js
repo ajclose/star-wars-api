@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import '../styles/App.css';
 
+import JumboTron from './jumbotron'
+
 class App extends Component {
   // PROPS AND STATE
   // Set props and state below.
@@ -46,17 +48,18 @@ class App extends Component {
     Store vehicles state in a variable.
     Map over this variable to access the values needed to render.
     */
-    })
     return (
       <div className="App">
-        {/*
-        The App component needs the following:
-         jumbotron section, form section, vehicle cards section.
-         Your form will also need a header in which you will pass the state of the form upon submit.
-         */}
-      </div>
-    );
+        // {/*
+          // The App component needs the following:
+          //  jumbotron section, form section, vehicle cards section.
+          //  Your form will also need a header in which you will pass the state of the form upon submit.
+          //  */}
+          <JumboTron />
+        </div>
+      );
+    }
   }
-}
+
 
 export default App;
